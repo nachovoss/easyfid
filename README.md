@@ -4,13 +4,13 @@ An easy face id set of functions
 
 A simple to use Python Face ID module
 
-To get started install requirements.txt (in Face_id folder pip install -r requiremnts.txt in commandline)
+ pip install -r requiremnts.txt in commandline
 
 errase text files in folders trainer and dataset
 
 Make sure your webcam is connected
 
-Then Run get_first_data set.py (in Face_id folder run python get_first_data set.py in commandline)
+
 
 Chose a user number from 1 to 5.
 
