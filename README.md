@@ -19,3 +19,14 @@ Look at the camara and move slowly your face to the sides
 Repeat this proces with different users which will have to choose a user number from 1 to 5 skipping those numbers allready chosen.
 
 Then you can run the Example.py and have fun!
+
+List of funtions:
+
+face_data()
+#get data from webcam 
+
+training_faces()
+#training with given images
+
+face_id()
+#Start face recognition based on trained data
