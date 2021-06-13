@@ -44,6 +44,7 @@ def face_data():
     print("\n Exiting Program and cleanup ")
     cam.release()
     cv2.destroyAllWindows()
+
 def training_faces():
 # Path for face image database
         path = 'dataset'
