@@ -33,7 +33,7 @@ def face_data():
                 cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)
                 
                 #  Save the captured image into the datasets folder
-                cv2.imwrite(f"dataset/User.{str(face_id)}.{str(count)}.jpg", gray[y:y + h, x:x + w])
+                cv2.imwrite(f"dataset/User.{str(face_id)}.{str(i)}.jpg", gray[y:y + h, x:x + w])
 
                 cv2.imshow('image', img)
 
@@ -43,9 +43,9 @@ def face_data():
             
 
     #  Release camera and close window
-        print("\n Finished capturing data ")
-        cam.release()
-        cv2.destroyAllWindows()
+    print("\n Finished capturing data ")
+    cam.release()
+    cv2.destroyAllWindows()
 
 def training_faces():
 # Path for face image database
