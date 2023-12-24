@@ -20,9 +20,13 @@ This project implements a face recognition system in Python using OpenCV. It all
     git clone https://github.com/nachovoss/easyfid.git
 
 - Install the required packages:
+ ```
     pip install numpy opencv-python pillow
+```
     or
+    ```
     pip install -r requirements.py
+    ```
 
 
 ## Usage
