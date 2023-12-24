@@ -1,32 +1,46 @@
 # Easyfid
-An easy face id set of functions
+# Face Recognition System
+
+## Overview
+This project implements a face recognition system in Python using OpenCV. It allows users to capture facial images, train a recognizer on these images, and then use the trained model to recognize faces in real-time. 
+
+## Features
+- Capture multiple facial images per user.
+- Train a Local Binary Patterns Histograms (LBPH) face recognizer.
+- Real-time face recognition with confidence scoring.
+
+## Requirements
+- Python 3.x
+- OpenCV (`cv2`) library
+- NumPy
+- Pillow (PIL)
+
+## Installation
+- Clone the repository to your local machine:
+    git clone https://github.com/nachovoss/easyfid.git
+
+- Install the required packages:
+    pip install numpy opencv-python pillow
+    or
+    pip install -r requirements.py
 
 
-A simple to use Python Face ID module
+## Usage
+To use the face recognition system, follow these steps:
 
- pip install -r requiremnts.txt in commandline
+1. Run the main script:
+    ```python
+    python Example.py
+    ```
 
-errase text files in folders trainer and dataset
+2. Follow the prompts to capture images, train the recognizer, and start the face recognition process:
+    - Enter the number of pictures per person.
+    - Enter the number of users for creating the dataset.
+    - Train the recognizer.
+    - Enter the number of users for recognition and their names.
 
-Make sure your webcam is connected
+## Contributing
+Contributions to this project are welcome. Please feel free to fork the repository, make changes, and submit a pull request.
 
-
-
-Chose a user number from 1 to 5.
-
-Look at the camara and move slowly your face to the sides
-
-Repeat this proces with different users which will have to choose a user number from 1 to 5 skipping those numbers allready chosen.
-
-Then you can run the Example.py and have fun!
-
-List of funtions:
-
-face_data()
-#get data from webcam 
-
-training_faces()
-#training with given images
-
-face_id()
-#Start face recognition based on trained data
+## License
+[MIT License](LICENSE)
